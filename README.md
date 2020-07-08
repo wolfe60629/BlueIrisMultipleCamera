@@ -48,14 +48,14 @@ This class contains the logic on when to alert the user. It reads values from th
 
 This class was implemented to read an INI file containing the information of the SMTP server that will be used to send alerts. By default, for security, the INI file is not uploaded. The program reads data using the "=" seperator in the below syntax. In the current state the Alert.ini file will need to be placed in the bin folder.  
 
-username={username for smtp}
-password={password for smtp}
-recipient1={recipient}
-recipient2={optional recipient}
-host={host smtp}
-alertFolder={folder that contains photo attachments}
-smtpport={port for smtp}
-starttls={true or false}
+username={username for smtp} <br />
+password={password for smtp} <br />
+recipient1={recipient} <br />
+recipient2={optional recipient} <br />
+host={host smtp} <br />
+alertFolder={folder that contains photo attachments} <br />
+smtpport={port for smtp} <br />
+starttls={true or false} <br />
 
 
 ### Alert.java
