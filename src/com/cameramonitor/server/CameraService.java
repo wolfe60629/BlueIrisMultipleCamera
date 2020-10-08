@@ -42,6 +42,7 @@ public class CameraService {
 				}else if ((Camera.isOutsideBounds(gCam, fCam)) && checkForAlert() == true)  { 
 				// if outside time frame and both are triggered
 					resetStatus();
+					fCam.setTriggered(true);
 				}
 
 			break;
@@ -64,6 +65,7 @@ public class CameraService {
 				}else if ((Camera.isOutsideBounds(gCam, fCam)) && checkForAlert() == true)  { 
 				// if outside time frame and both are triggered
 					resetStatus();
+					gCam.setTriggered(true);
 				}
 			
 			
